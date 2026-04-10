@@ -2,11 +2,11 @@
 ## Navigation  
 - [Disclaimer](#disclaimer)
 - [Versions table](#versions-table)  
-- [Full revisions.txt](#full-revisions.txt)  
+- [Full revisions.txt](#full-revisionstxt)  
 ## Disclaimer  
 *This repository is just a version manifest. Original program developers are Brain Development LLC. This repository and its creator are not associated with Brain Development LLC.*
 ## Versions Table
-Version list taken from `revisions.txt`
+Version list taken from `revisions.txt`.
 If you find version who unlisted or marked as *Not found* please create an [Issue](https://github.com/RobotrackCommunity/RobotrackIDE-Versions-Manifest/issues)
 
 | Version | Original Download Link                                                                                                                                 | Manifest Release                                                                                   | SHA-256                                                          |
