@@ -1,4 +1,8 @@
 # Robotrack IDE Version Manifest
+## Navigation  
+- [Disclaimer](#disclaimer)
+- [Versions table](#versions-table)  
+- [Full revisions.txt](#full-revisions.txt)  
 ## Disclaimer  
 *This repository is just a version manifest. Original program developers are Brain Development LLC. This repository and its creator are not associated with Brain Development LLC.*
 ## Versions Table
@@ -56,3 +60,177 @@ If you find version who unlisted or marked as *Not found* please create an [Issu
 | 1.4.6   | *Not found*                                                                                                                                            | *Not found*                                                                                        | *Not found*                                                      |
 | 1.4.5   | *Not found*                                                                                                                                            | *Not found*                                                                                        | *Not found*                                                      |
 | 1.4.4   | [Yandex Disk](https://disk.yandex.ru/d/FEXCFbqGAmqDcw), [Robotrack Wiki](https://robotrack-rus.ru/wiki/doku.php/po/robotrekide#robotrek_ide)           | [v1.4.4](https://github.com/RobotrackCommunity/RobotrackIDE-Versions-Manifest/releases/tag/v1.4.4) | 6E781F4E209446FBE412E05D1ECF3FED4E38E52E040E793B72F48CC8B3A5B320 |
+## Full revisions.txt
+Full `revisions.txt` from [v2.4.4](https://github.com/RobotrackCommunity/RobotrackIDE-Versions-Manifest/releases/tag/v2.4.4)
+```
+ROBOTRACK IDE 2.4.4
+- [FIX] With a bad package, the library could not freeze inside the button handling
+- [FIX] The correct name for the number of objects in the frame block in the smart camera section
+
+ROBOTRACK IDE 2.4.3
+- [FIX] Fixed IoT breaking with newer versions of IDE
+
+ROBOTRACK IDE 2.4.2
+- add eeprom color sensor blocks
+
+ROBOTRACK IDE 2.4.1
+- remove step motor blocks and libs
+
+ROBOTRACK IDE 2.4.0
+- blocks and libraries for ready neural networks in NNTrack
+
+ROBOTRACK IDE 2.3.6
+- fix nntrack blocks logic
+- fix sensors blocks display and logic
+- fix motor with braking display
+
+ROBOTRACK IDE 2.3.5
+- fix soft manipulator logic blocks
+- fix nntrack logic blocks
+
+ROBOTRACK IDE 2.3.4
+- new sonsors blocks and libs added
+
+ROBOTRACK IDE 2.3.3
+- step motor blocks and libs added
+
+ROBOTRACK IDE 2.3.2
+- oledText block fix
+
+ROBOTRACK IDE 2.3.1
+- u8glib -> gyveroled
+
+ROBOTRACK IDE 2.3.0
+-new blocks for NNTrack (YOLO)
+
+ROBOTRACK IDE 2.2.9
+-convert int to string block added
+
+ROBOTRACK IDE 2.2.8
+-electrotech section is completed
+
+ROBOTRACK IDE 2.2.7
+- Russion symbols support
+- Slider fix
+
+ROBOTRACK IDE 2.2.6
+- Ð”Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ñ‹ Ð±Ð»Ð¾ÐºÐ¸ NNTRack
+- Ð”Ð¾Ð±Ð°Ð²Ð»ÐµÐ½Ð° Ð±Ð¸Ð±Ð»Ð¸Ð¾Ñ‚ÐµÐºÐ° Ð¿Ð¾Ð´ NNTrack
+
+ROBOTRACK IDE 2.2.5
+- Ð”ÐžÐ±Ð°Ð²Ð»ÐµÐ½Ñ‹ Ð¿Ð¾Ñ€Ñ‚Ñ‹ out6-8 Ð´Ð»Ñ? Ñ?ÐµÑ€Ð²Ð¾Ð¼Ð¾Ñ‚Ð¾Ñ€Ð¾Ð²
+
+ROBOTRACK IDE 2.2.4
+
+- fix zoom and hide minimap feature
+
+ROBOTRACK IDE 2.2.3
+
+- fix bug with face deleting in smart camera
+
+ROBOTRACK IDE 2.2.2
+
+[ide]
+- new signatures in the block map
+
+ROBOTRACK IDE 2.2.1
+
+[hardware]
+- ctrl + z function is fixed
+
+ROBOTRACK IDE 2.2.0
+
+[ide]
+- autosave doesn't work if no workspace event occured
+- zoom with keys + and - is fixed
+
+ROBOTRACK IDE 2.1.9
+
+[ide]
+- new sketch when execute
+
+[hardware]
+- Increased memory for development
+
+ROBOTRACK IDE 2.1.8
+
+[ide]
+- deleting blocks
+- Auto-save function
+- socket autocorrect
+
+
+ROBOTRACK IDE 2.1.7
+
+ROBOTRACK IDE 2.1.6
+
+ROBOTRACK IDE 2.1.5
+
+ROBOTRACK IDE 2.1.4
+
+ROBOTRACK IDE 2.1.3
+
+ROBOTRACK IDE 2.1.2
+
+[ide]
+new ServoMotor block for manipulator
+
+ROBOTRACK IDE 2.1.1
+
+ROBOTRACK IDE 2.1.0
+
+ROBOTRACK IDE 2.0.9
+
+ROBOTRACK IDE 2.0.8
+
+ROBOTRACK IDE 2.0.7
+
+ROBOTRACK IDE 2.0.6
+
+ROBOTRACK IDE 2.0.5
+
+ROBOTRACK IDE 2.0.4
+
+ROBOTRACK IDE 2.0.3
+
+ROBOTRACK IDE 2.0.2
+
+ROBOTRACK IDE 2.0.1
+
+ROBOTRACK IDE 2.0.0
+
+ROBOTRACK IDE 1.4.10
+
+ROBOTRACK IDE 1.4.9
+
+ROBOTRACK IDE 1.4.8
+
+[hardware]
+- Added library for MRT motors
+- Added library for Smart Camera
+- Servomotor library fixed
+
+[ide]
+- Added Ctrl+Z function
+- Improved interface of the "Neurointerface" window
+- Added autoscroll function
+- Zoom function is improved
+- Interface of application is more comfortable for users
+
+ROBOTRACK IDE 1.4.7
+
+[ide]
+- Added colors and relay blocks
+
+ROBOTRACK IDE 1.4.6
+
+[hardware]
+- Revert Ultrasonic distance sensor range down to 2-300 cm
+
+ROBOTRACK IDE 1.4.5
+
+ROBOTRACK IDE 1.4.4
+
+[ide]
+- Added themes
+```
